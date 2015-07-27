@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h2 How's Peckham feeling today?
+
+  div.table
+    each data in {1:{date: 'Today', sentiment: '22%', hashtags: ['rain', 'boring', 'nothing', 'delays', 'stolen']}, 2:{date: 'Yesterday', sentiment: '78%', hashtags: ['football', 'sun', 'shopping', 'party']},3:{date: 'Friday', sentiment: '49%', hashtags: ['cloud', 'work', 'DLR']}}
+      div.col
+        h3=data.date
+        p.sentiment=data.sentiment
+        p.sentiment-sub Happy
+        p.trending-title Trending
+        ul.trending
+          each word in data.hashtags
+            li=word+','
