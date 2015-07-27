@@ -1,0 +1,11 @@
+/**
+ * Created by Alicia on 20/06/2015.
+ */
+
+
+exports.TWITTER_API = {
+    CONSUMER_KEY        : "lnidllBRrZYKRlH0QhY7Rjr3R",
+    CONSUMER_SECRET     : "WBshLqcuVITiOfY0pLnT2WX0LpmkznOLC1iP7AT2eTuLzOyXDI",
+    ACCESS_TOKEN_KEY    : "43356339-emVnDmXNh2SZ1NNDTNgsQmx1IhRWI9WpgAzYEagJd",
+    ACCESS_TOKEN_SECRET : "AXAyIRCIGLI6cPLlQPbM87MAn6cMrIOaUxXFuOwYEcCDy"
+};
